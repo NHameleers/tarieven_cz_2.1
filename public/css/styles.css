@@ -1,0 +1,53 @@
+/**
+ * styles.css
+ *
+ * Tarieven CZ Project
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#top {
+    color: #EE8931;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #EE8931;
+}
+
+.intro {
+    font-size: 16px;
+}
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+.histogram {
+    max_width: 80%;
+    height: auto;
+}
+
+th {
+    color:#EE8931;
+
+}
+th:hover {
+    text-decoration: underline;
+}
+
+/* change hover color of table rows */
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #EE8931;
+  opacity: 0.8;
+}
